@@ -1,0 +1,291 @@
+ls
+cd repoclonegit/
+ls
+cd TP_AySO/
+git status
+config --global user.mail "santioldani08@gmail.com"
+git config --global user.email "santioldani08@gmail.com"
+git config --global user.name "Santi543"
+git commit -m "ADD: agregado 1er ejercicio sobre datos_usuarios.txt"
+git status
+clear
+hostnamectl --help
+hostnamectl status
+hostnamectl hostname
+localect1 --help
+localectl --help
+passwd --help
+man passwd
+passwd -1234
+man passwd
+man -k network
+sudo mandb
+apropos network
+whoami
+pwd
+ls
+cd carpeta_compartida/
+cd
+pwd
+ls
+cd repogit/
+$HOME
+HOME
+$HOME
+pwd
+cd
+apt
+apt update
+sudo apt update
+sudo apt install tree
+tree
+cat archivo.txt
+cat > archivo.txt
+cat archivo.txt
+cat etc/passwd
+pwd
+ssh-keygen
+$home
+pwd
+cat $HOME/.ssh/*.pub
+vagrant halt
+pwd
+cd
+pwd
+ls
+cat repogit
+cd repogit
+ls
+cd UTN-FRA_SO_onBording/
+ls
+cd
+pwd
+ls
+mkdir repoclonegit
+ls
+cd repoclonegit
+ls
+git clone git@github.com:Santi543/TP_AySO.git
+ls
+cd TP_AySO/
+pwd
+ls -l
+cat /etc/os-release
+man grep
+grep HOME_URL /etc/os-release
+grep home_url /etc/os-release
+grep -i Home_url /etc/os-release
+whoami
+echo "Usuario=$(whoami)" > datos_usuario.txt
+ls
+cat datos_usuario.txt 
+git status
+git add .
+git user"
+
+git status
+ls
+cd repoclonegit/
+ls
+cd
+ls
+cd repoclonegit/
+ls
+cd TP_AySO/
+cd
+cd TP_AySO/
+cd repoclonegit/
+cd TP_AySO/
+ls
+git status
+cd
+pwd
+cd proc
+ls
+cpuinfo
+/proc
+ls
+cd carpeta_compartida/
+ls
+cd
+man
+man man
+cpu-info
+sudo cpu-info
+apt install cpuinfo
+/proc
+proc
+cd /proc
+ls
+cat cpuinfo
+pwd
+ls
+cat cpuinfo | grep model name
+cat cpuinfo 
+cat cpuinfo | grep mode
+cat cpuinfo | grep model name
+cat cpuinfo | grep modelname
+tail -2 cat cpuinfo | grep model
+tail -n2 cat cpuinfo | grep model
+cat cpuinfo head-n1
+tail-n1
+tail -n1
+head -n2
+cat cpuinfo 
+cat cpuinfo | grep "model name"
+tail -1 cat cpuinfo | grep "model name"
+cat cpuinfo | grep "model name" tail -1
+cat cpuinfo | grep "model name"
+cat cpuinfo | grep "model name" > hola
+ls
+cd cpuinfo
+cat cpuinfo | grep "model name" > datos_usuario.txt
+cd
+ls
+cd repoclonegit/
+ls
+cd TP_AySO/
+ls
+pwd
+cd
+/proc
+proc
+cd proc
+cd /proc
+cat cpuinfo | grep "model name" >> ./home/vagrant/repoclonegit/TP_AySO/datos_usuario.txt
+[200~ls /home/vagrant/repoclonegit/TP_AySO
+ls /home/vagrant/repoclonegit/TP_AySO
+cat cpuinfo | grep "model name" >> /home/vagrant/repoclonegit/TP_AySO/datos_usuario.txt
+cd
+ls
+cd repoclonegit/
+ls
+cd TP_AySO/
+ls
+cat datos_usuario.txt 
+man sed
+pwd
+ls
+cat datos_usuario.txt 
+sed -i -e '2d' datos_usuario.txt 
+cat datos_usuario.txt 
+git status
+git add .
+git commit -m "feat:AñadiendoinformacióndeCPU" 
+cd
+/etc
+ls
+cd /etc
+ls
+cd passwd
+cat passwd
+man grep
+cat passwd | grep -i "nologin"
+man grep
+grep -i /etc/passwd
+man grep
+cat passwd | grep "nologin" i
+cat passwd | grep i "nologin"
+cat passwd | grep -i "nologin"
+man grep
+cat passwd | grep -v "nologin"
+man sort
+man sort (7)
+man sort 7
+grep -v "nologin" /etc/passwd
+grep - v "nologin" /etc/passwd | head -n 10 | sort -t ':' -k 7 > /home/vagrant/repoclonegit/TP_AySO/lista_ordenada.txt
+grep -v "nologin" /etc/passwd | head -n 10 | sort -t ':' -k 7 > /home/vagrant/repoclonegit/TP_AySO/lista_ordenada.txt
+cd
+cd repoclonegit/
+ls
+cd TP_AySO/
+ls
+cat lista_ordenada.txt 
+git status
+git add .
+git commit -m "“ADD: Listado de usuarios ordenada”
+
+
+git commit -m "“ADD: Listado de usuarios ordenada”
+git commit -m "“ADD: Listado de usuarios ordenada”
+
+
+git commit -m "ADD: Listado de usuarios ordenada”
+git status
+git commit -m “ADD: Listado de usuarios ordenada”
+git commit -m "add: listado de usuarios ordenada"
+man -k dump
+man -k "dump traffic"
+tcpdump
+echo man -k "dump traffic"
+cat man -k "dump traffic"
+man -k "dump traffic"
+man -k "dump traffic" | echo > comando_dump_net.txt
+ls
+cat comando_dump_net.txt 
+echo man -k "dump traffic" > comando_dump_net.txt
+cat comando_dump_net.txt 
+echo tcpdump >> comando_dump_net.txt
+cat comando_dump_net.txt 
+git status
+git add .
+git commit -m "ADD: Comando para Capturar y analizar el trafico de red"
+cd
+ls
+repoclonegit/
+cd
+cat archivo.txt 
+cd repogit
+ls
+cd
+cat README 
+echo Alumno: Santiago Ezequiel Oldani >> README 
+ls -l /home/vagrant/README 
+sudo echo Alumno: Santiago Ezequiel Oldani >> README 
+sudo tee -a /home/vagrant/README << EOF
+Alumno: Santiago Ezequiel Oldani
+Division: 314
+Turno: Noche
+EOF
+
+cat README 
+git status
+ls
+cd repoclonegit/
+ls
+ls -l
+cd TP_AySO/
+ls
+cat README.md 
+ls
+pwd
+echo README.md << EOF
+Alumno: Santiago Ezequiel Oldani
+Division: 314
+Turno: Noche
+EOF
+
+cat README.md 
+sudo tee -a README.md << EOF
+Alumno: Santiago Ezequiel Oldani
+División: 314
+Turno: Noche
+EOF
+
+cat README.md 
+sed -i -e "1d" README.md 
+cat README.md 
+sed -i -e "1,2d" README.md 
+cat README.md 
+sudo tee -a README.md << EOF
+Alumno: Santiago Ezequiel Oldani
+Division: 314
+Turno: Noche
+EOF
+
+cat README.md 
+git status
+git add .
+git commit -m "DOCS: Datos de alumno en archivo README.md"
+history
+history -a >> $HOME/.bash_history
